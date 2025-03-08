@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 22px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #9da79c;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Form Styling */
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    width: 500px;
+    padding: 10px;
+    color: #fff;
+    background: linear-gradient(45deg, #080d27, #3b4b83, #5e6391);
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+.form-group input[type="checkbox"],
+.form-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.form-group .options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* Button Styling */
+button {
+    width: 100px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0d345e;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #303038;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .form-group .options label {
+        width: 100%;
+        margin-right: 0;
+    }
+}
